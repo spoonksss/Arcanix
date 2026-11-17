@@ -268,3 +268,7 @@ Arcanix, Copyright (C) 2026 Dimitar Tsonov. Licensed under GNU GPLv3.
 You're free to use, change, rebuild and share Arcanix. If you share a changed version, its code must be shared too, under the same license. See [LICENSE](LICENSE).
 
 Parts made by others, like the Archivo font, keep their own licenses.
+
+---
+
+<a href="https://ko-fi.com/arcanix"><img src="images/kofi-button.png" alt="Support me on Ko-fi" width="200"></a>
