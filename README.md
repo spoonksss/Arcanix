@@ -105,7 +105,7 @@ Saver is for everything that isn't a game: screenshots, BIOS files, configs, not
 
 - Each device chooses its own place for a shared folder.
 - Every file and folder (empty ones too) moves both ways. The newest version wins, and a deletion is passed on to every device of that folder. That's the difference from the Syncer: this folder is meant to be a true mirror.
-- **While a device is away,** the host holds on to only the files that device still needs (a small waiting room). Each file is deleted the moment no device needs it any more, and everything is deleted if that device unlinks or the folder is removed.
+- **When only your devices share a folder** (not the host), the host keeps a copy of each new or changed file for a device that is off, so it gets the file when it’s back, even if the other devices are off by then. Each copy is deleted as soon as every device has the file.
 - The folder's owner can pause it for everyone.
 - To keep your games safe, Saver **refuses** to share the games folder, a device's games folder, or a folder inside another shared folder.
 
