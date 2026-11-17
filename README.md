@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/arcanix-logo-white.png">
   <source media="(prefers-color-scheme: light)" srcset="images/arcanix-logo-black.png">
-  <img alt="Arcanix: your sovereign retro games vault." src="images/arcanix-logo-black.png" width="400">
+  <img alt="Arcanix: your sovereign retro games vault." src="images/arcanix-logo-black.png" width="260">
 </picture>
 
 &nbsp;
