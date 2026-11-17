@@ -1,6 +1,13 @@
-# Arcanix
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/arcanix-logo-white.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/arcanix-logo-black.png">
+  <img alt="Arcanix: your sovereign retro games vault." src="images/arcanix-logo-black.png" width="400">
+</picture>
 
-> **ℹ️ A note before you start**
+![Arcanix](images/screenshot.webp)
+
+> [!TIP]
+> **A note before you start**
 >
 > Arcanix was built entirely by vibe coding with **Claude Code**. I described what I wanted, step by step, and the AI wrote the code. I tested every part on my own PC, Android and handhelds and use it every day. A lot of care went into making it careful with your files. It never deletes a game file on its own, never overwrites your edits or saves by surprise, and always tells you plainly when something goes wrong.
 >
@@ -240,8 +247,9 @@ Temporary files, half-finished downloads, old pictures and leftover data are del
 1. Download the files from the [Releases](https://github.com/spoonksss/Arcanix/releases) page.
 2. **On the PC:** run `Arcanix-Setup-<version>.exe`, create your account and choose your games folder.
 3. **On Android:** install `Arcanix-Mini-<version>.apk`.
-4. **On handhelds:** copy Mini Onion or Mini Knulli onto the handheld.
-5. **Arcanix Mini:** log in with your Arcanix account. **Handhelds:** open the app, and approve its request in the host's window.
+4. **On Knulli:** unzip `Mini-Knulli-<version>.zip` onto the root of the games partition, the one with the roms and system folders.
+5. **On Onion OS:** unzip `Mini-Onion-<version>.zip` onto the root of the SD card.
+6. **Arcanix Mini:** log in with your Arcanix account. **Handhelds:** open Mini Knulli from Ports or Mini Onion from Apps, and approve its request in the host's window.
 
 ---
 
