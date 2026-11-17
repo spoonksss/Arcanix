@@ -4,7 +4,7 @@
   <img alt="Arcanix: your sovereign retro games vault." src="images/arcanix-logo-black.png" width="400">
 </picture>
 
-<br>
+&nbsp;
 
 ![Arcanix](images/screenshot.webp)
 
