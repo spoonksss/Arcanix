@@ -6,12 +6,12 @@
 
 ![Arcanix](images/screenshot.webp)
 
-> [!TIP]
-> **A note before you start**
+> [!CAUTION]
+> ***Disclaimer***
 >
-> Arcanix was built entirely by vibe coding with **Claude Code**. I described what I wanted, step by step, and the AI wrote the code. I tested every part on my own PC, Android and handhelds and use it every day. A lot of care went into making it careful with your files. It never deletes a game file on its own, never overwrites your edits or saves by surprise, and always tells you plainly when something goes wrong.
+> *Arcanix was built entirely by vibe coding with **Claude Code**. I described what I wanted, step by step, and the AI wrote the code. I tested every part on my own PC, Android and handhelds and use it every day. A lot of care went into making it careful with your files. It never deletes a game file on its own, never overwrites your edits or saves by surprise, and always tells you plainly when something goes wrong.*
 >
-> Still, it's a hobby project, provided **as is**, without any warranty. **Use it at your own risk**, and keep a backup of anything you can't afford to lose, like your games and saves.
+> *Still, it's a hobby project, provided **as is**, without any warranty. **Use it at your own risk**, and keep a backup of anything you can't afford to lose, like your games and saves.*
 
 Arcanix is a ROM manager I built for myself, because I wanted one place for my retro games that works the same on all of my devices. It runs on a Windows PC, which I call **the host**. Three small companion apps connect to it:
 
