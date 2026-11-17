@@ -9,8 +9,6 @@
 ![Arcanix](images/screenshot.webp)
 
 > [!CAUTION]
-> ***Disclaimer***
->
 > *Arcanix was built entirely by vibe coding with **Claude Code**. I described what I wanted, step by step, and the AI wrote the code. I tested every part on my own PC, Android and handhelds and use it every day. A lot of care went into making it careful with your files. It never deletes a game file on its own, never overwrites your edits or saves by surprise, and always tells you plainly when something goes wrong.*
 >
 > *Still, it's a hobby project, provided **as is**, without any warranty. **Use it at your own risk**, and keep a backup of anything you can't afford to lose, like your games and saves.*
