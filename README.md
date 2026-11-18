@@ -271,4 +271,4 @@ Parts made by others, like the Archivo font, keep their own licenses.
 
 ---
 
-<a href="https://ko-fi.com/arcanix"><img src="images/kofi-button.png" alt="Support me on Ko-fi" width="200"></a>
+<a href='https://ko-fi.com/Q3H72AUJ1F' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
