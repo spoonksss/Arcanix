@@ -38,7 +38,7 @@ Below is what each part does, how it works, and the thinking behind it.
 
 ---
 
-## ðŸ“š Library
+## 📚 Library
 
 You choose one folder on the PC, the **Arcanix Games Root Directory**. Every folder inside it is a platform (for example `snes`, `psx`, `megadrive`), and every file inside those is a game.
 
@@ -52,12 +52,12 @@ When the app starts it scans the folder once. After that, it only looks again wh
 
 ---
 
-## ðŸ–¼ï¸ Scraping: game info, artwork and logos
+## 🖼️ Scraping: game info, artwork and logos
 
 Scraping fills each game with its description, developer, release date, a large picture for the background (the hero) and a clean logo.
 
 - **Where it comes from.** IGDB is asked first, for the text, the hero and the logo. Whatever IGDB doesn't have comes from a second source: Wikipedia for the text and SteamGridDB for the hero and logo. All of them are asked at the same moment, so you don't wait for one after the other. Answers that turn out not to be needed are dropped, not saved.
-- **Picture quality.** A hero must be at least 1200 Ã— 600, so nothing looks blurry on a big screen. IGDB's clean key art is preferred, and a screenshot is used only when there's no key art.
+- **Picture quality.** A hero must be at least 1200 × 600, so nothing looks blurry on a big screen. IGDB's clean key art is preferred, and a screenshot is used only when there's no key art.
 - **It never overwrites your data.** Scraping a game again only fills in what's missing. The one exception is **Force all**, which you choose on purpose, and which also replaces your own edits.
 - **Bulk Scrape** works through the whole library and sorts the results into three lists you can act on: *Unscraped*, *No Results* (to try again) and *Partially* (to fill in only what's missing).
 - **The Edit window** lets you change everything by hand: the text, the artwork and the logo (pick another one, or bring back the earlier one), and the game's RetroAchievements link.
@@ -65,7 +65,7 @@ Scraping fills each game with its description, developer, release date, a large 
 
 ---
 
-## ðŸ† RetroAchievements
+## 🏆 RetroAchievements
 
 If you have a RetroAchievements account, Arcanix shows your profile, your recently played games and your progress.
 
@@ -76,7 +76,7 @@ If you have a RetroAchievements account, Arcanix shows your profile, your recent
 
 ---
 
-## ðŸŽ¨ Appearance: your home page
+## 🎨 Appearance: your home page
 
 The home page is yours to build.
 
@@ -87,12 +87,12 @@ The home page is yours to build.
   - **Platforms List**, every platform with its number of games, including games that only your other devices have
 - **What a row shows:** *Random games* from the folders you choose, *Curated games* (exactly the ones you pick, in your order), *Newest games*, or *Games with saves* (newest save first).
 - **How often random rows change:** on every page load, every 2, 4, 8, 12 or 24 hours, or never. A small timer on the row shows when it will change next.
-- Cards can show a **number** (1, 2, 3â€¦) for "top" lists.
+- Cards can show a **number** (1, 2, 3…) for "top" lists.
 - **Light or dark theme**, and you can drag the Settings tabs into the order you prefer.
 
 ---
 
-## ðŸ”„ Syncer: keeping games in step
+## 🔄 Syncer: keeping games in step
 
 The Syncer keeps games in step between the host and your Android (Arcanix Mini). You decide **for each device** how it behaves:
 
@@ -105,26 +105,26 @@ How it handles the awkward cases:
 
 - **Same name, different content.** You choose for each device: *Keep both* (the second one gets another name), *Newest wins*, or *Skip and ask me*. With the last one, the file waits in a list with three buttons until you decide: *Use my version*, *Use the new version* or *Keep both*.
 - **Failed copies** are tried again immediately, after 3 seconds or after 10 seconds, as you set. Files that keep failing can be retried or set aside with one button.
-- **Arriving games.** As soon as the lists are compared, games that only another device has appear as cards marked **"Arrivingâ€¦"**, and each one becomes a normal game the moment its file lands.
+- **Arriving games.** As soon as the lists are compared, games that only another device has appear as cards marked **"Arriving…"**, and each one becomes a normal game the moment its file lands.
 - **Deletions are never passed on.** Deleting a game on one device never deletes it anywhere else. The only way to delete a game file is the **Delete Game** button in the Edit window, where you tick the devices yourself. A device that's offline deletes it as soon as it comes back, and until then you can still cancel.
 
 **When it runs:** only when something changed. That means the host's folder changed, a device says its folder changed, a device comes back online, or you save new settings. It doesn't run on a timer, and it only ever copies what's missing.
 
 ---
 
-## ðŸ“ Saver: shared folders
+## 📁 Saver: shared folders
 
 Saver is for everything that isn't a game: screenshots, BIOS files, configs, notes, anything. You share a folder from one device, link it on the others, and Saver keeps it **exactly the same** on all of them.
 
 - Each device chooses its own place for a shared folder.
 - Every file and folder (empty ones too) moves both ways. The newest version wins, and a deletion is passed on to every device of that folder. That's the difference from the Syncer: this folder is meant to be a true mirror.
-- **When only your devices share a folder** (not the host), the host keeps a copy of each new or changed file for a device that is off, so it gets the file when itâ€™s back, even if the other devices are off by then. Each copy is deleted as soon as every device has the file.
+- **When only your devices share a folder** (not the host), the host keeps a copy of each new or changed file for a device that is off, so it gets the file when it’s back, even if the other devices are off by then. Each copy is deleted as soon as every device has the file.
 - The folder's owner can pause it for everyone.
 - To keep your games safe, Saver **refuses** to share the games folder, a device's games folder, or a folder inside another shared folder.
 
 ---
 
-## ðŸ’¾ Archer: game saves everywhere
+## 💾 Archer: game saves everywhere
 
 Archer collects the RetroArch saves of your devices (the host, Arcanix Mini, Mini Onion and Mini Knulli) and puts the newest save of each game on all of them. You play on a handheld, pick up the Android later, and your progress is already there.
 
@@ -148,9 +148,9 @@ The other details:
 
 ---
 
-## ðŸŒ Connectivity: your library from anywhere in the world
+## 🌍 Connectivity: your library from anywhere in the world
 
-This is one of my favourite parts of Arcanix. Your games stay on your PC at home, yet you can reach them from a hotel Wi-Fi, a cafÃ© or mobile data on the other side of the world. Arcanix Mini, Mini Onion and Mini Knulli work the same way away as they do at home: browse your library, download a game, send your saves, keep your folders in step.
+This is one of my favourite parts of Arcanix. Your games stay on your PC at home, yet you can reach them from a hotel Wi-Fi, a café or mobile data on the other side of the world. Arcanix Mini, Mini Onion and Mini Knulli work the same way away as they do at home: browse your library, download a game, send your saves, keep your folders in step.
 
 ### How it's possible: your own small server
 
@@ -172,9 +172,9 @@ Setting it up takes one step. In **Settings > Connectivity > Allow Away from Hom
 
 Each device always uses the best way available, in this order:
 
-1. ðŸ  **Local.** At home, on your own network. Always used when possible, and the server isn't involved at all. If a device is actually at home but asks the server anyway, the server sends it back to the home way.
-2. âš¡ **Direct.** Away from home, the device connects **straight to your PC** over the internet. This is **always tried first** when you're away. It uses none of your server's traffic.
-3. ðŸ›°ï¸ **Internet.** Only when Direct isn't possible, the data goes through your server. This is the one way that uses your server's monthly traffic, so the device's card turns orange to let you know.
+1. 🏠 **Local.** At home, on your own network. Always used when possible, and the server isn't involved at all. If a device is actually at home but asks the server anyway, the server sends it back to the home way.
+2. ⚡ **Direct.** Away from home, the device connects **straight to your PC** over the internet. This is **always tried first** when you're away. It uses none of your server's traffic.
+3. 🛰️ **Internet.** Only when Direct isn't possible, the data goes through your server. This is the one way that uses your server's monthly traffic, so the device's card turns orange to let you know.
 
 Every device's card shows which of the three it's using right now.
 
@@ -204,13 +204,13 @@ Guests are off unless you, the owner, allow them in Settings > Connectivity. Whe
 
 ---
 
-## ðŸ“± Arcanix Mini (Android)
+## 📱 Arcanix Mini (Android)
 
 Arcanix Mini is the full Arcanix on your Android: the same home page, library, search, game windows and settings. It also takes part in the Syncer, Saver and Archer.
 
 It keeps the platform lists, the game lists, the pictures and logos, the avatars and the Achievement of the Week pictures **on the Android itself**. Each one has a mark, and it asks for something again only when the host says that mark changed. Opening the app usually costs next to nothing, because everything is already there. Updating the app keeps all of it. Only uninstalling removes it.
 
-## ðŸ•¹ï¸ Mini Onion and Mini Knulli (handhelds)
+## 🕹️ Mini Onion and Mini Knulli (handhelds)
 
 Small native apps built for handheld screens and buttons.
 
@@ -225,7 +225,7 @@ Small native apps built for handheld screens and buttons.
 
 ---
 
-## ðŸ“¶ How it keeps data use low
+## 📶 How it keeps data use low
 
 This was a goal from the start, especially for handhelds on weak Wi-Fi and phones away from home.
 
@@ -236,7 +236,7 @@ This was a goal from the start, especially for handhelds on weak Wi-Fi and phone
 - **Exact-size pictures** for the handhelds, made once on the host.
 - **The shortest path wins.** The home network first, then a direct connection, and your own server only as a last resort.
 
-## ðŸ”’ Privacy and safety
+## 🔒 Privacy and safety
 
 - Your data is kept in an **encrypted database**. A **recovery code** gets you back in if you forget your username or password.
 - Everything runs over a **secure https connection** with the host's own certificate.
@@ -245,17 +245,17 @@ This was a goal from the start, especially for handhelds on weak Wi-Fi and phone
 - **Auto-lock** after 15 minutes, 30 minutes, 1 hour, or never. You can see every logged-in device and log any of them out, or all at once.
 - When something fails, you get a clear message saying what happened. Arcanix never quietly swaps in a guess or a default.
 
-## ðŸ§¹ Nothing left behind
+## 🧹 Nothing left behind
 
 Temporary files, half-finished downloads, old pictures and leftover data are deleted the moment they're no longer needed, on every device. If the power goes out in the middle of something, the leftovers are cleaned up the next time that app starts.
 
-## â¬†ï¸ Updates
+## ⬆️ Updates
 
 **Check for updates** is in Settings > General on the host and on the Android, and in the Menu on the handhelds. It looks at this GitHub page, and if there's a newer version it updates **the host and the app on that device** together. Before it starts, it warns you that anything currently being copied will be cut off and has to be started again.
 
 ---
 
-## ðŸ“¥ Getting started
+## 📥 Getting started
 
 1. Download the files from the [Releases](https://github.com/spoonksss/Arcanix/releases) page.
 2. **On the PC:** run `Arcanix-Setup-<version>.exe`, create your account and choose your games folder.
@@ -266,7 +266,7 @@ Temporary files, half-finished downloads, old pictures and leftover data are del
 
 ---
 
-## ðŸ› ï¸ Under the hood
+## 🛠️ Under the hood
 
 - **The host:** a Python backend and a React + Vite frontend. The frontend follows its own design system, and every build is checked so no screen strays from it.
 - **Arcanix Mini:** a native Android app.
@@ -274,7 +274,7 @@ Temporary files, half-finished downloads, old pictures and leftover data are del
 
 ---
 
-## ðŸ“œ License
+## 📜 License
 
 Arcanix, Copyright (C) 2026 Dimitar Tsonov. Licensed under GNU GPLv3.
 
