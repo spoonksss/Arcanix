@@ -45,7 +45,15 @@ Your profile, your recent games, your progress and the Achievement of the Week, 
 Build your own home page: a slideshow on top and as many rows of games as you like.
 
 ## 🔄 Syncer
-Keeps your games the same on the host and the Android. Missing games are copied over by themselves. Deleting a game by hand never deletes it on another device: only the **Delete Game** button, set to All devices, deletes it everywhere.
+Keeps your games the same on the host and your Android (Arcanix Mini). Choose one way for each Android in Settings > Syncer:
+- **One-way to Arcanix:** The Android's games are copied to the host.
+- **One-way from Arcanix:** The host's games are copied to the Android.
+- **Two-way Sync:** Both get every game.
+- **Game lists only:** Nothing is copied, and you download only the games you want.
+
+Knulli and Onion handhelds are never synced, but their games always show on the host.
+
+Deleting a game by hand never deletes it on another device: only the **Delete Game** button, set to All devices, deletes it everywhere.
 
 ## 📁 Saver
 Shares any folder (screenshots, BIOS, configs) between your devices and keeps it exactly the same on all of them.
