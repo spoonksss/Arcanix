@@ -273,7 +273,7 @@ Small native apps built for handheld screens and buttons.
 - **Archer** works on both.
 - **Mini Knulli** also has a quiet background part. It keeps the connection, sends new saves, and shows small notes on Knulli's own menu, such as "Mini Knulli connected to the host".
 - **Mini Onion** connects only while it's open.
-- A **Menu** (Y button) with *Check for updates*, *Archer* and *Uninstall*.
+- A **Menu** (Y button) with *Check for updates* and *Include pre-releases* together in their own box, then *Archer* and *Uninstall*.
 
 ---
 
@@ -304,3 +304,5 @@ Temporary files, half-finished downloads, old pictures and leftover data are del
 ## ⬆️ Updates
 
 **Check for updates** is in Settings > General on the host and on the Android, and in the Menu on the handhelds. It looks at this GitHub page, and if there's a newer version it updates **the host and the app on that device** together. Before it starts, it warns you that anything currently being copied will be cut off and has to be started again.
+
+**Include pre-releases** is a switch right next to Check for updates (below it on the handhelds). It is off by default. Turned on, Check for updates also offers test versions that aren't final yet, on all your devices: one switch on any device sets it for every app. Always update the host and every app together, so they keep working with each other.
